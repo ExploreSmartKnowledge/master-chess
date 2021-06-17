@@ -18,7 +18,7 @@ block includestyle
     include ./style.pug
 block menu
     div(class='container-fluid')
-        h2(style="text-align:center;") Chess.io
+        h2(style="text-align:center;") enter your name then enter friend name to play with friend
 
         div(class="row")
                 button(id="newGameButton" class="btn btn-primary") New Game
@@ -30,10 +30,10 @@ block menu
                         button(class="btn btn-primary" type='submit') Enter Name
         div(class='row')
             form(id="joinGame" method="" )
-                label Enter Host Name
+                label Enter friend Name
                 input(id="hostName" class="chat-box" type="text")
                 span
-                    button(class="btn btn-primary" type='submit') Join Host
+                    button(class="btn btn-primary" type='submit') Join
 
 block content
     div(class="container-fluid")
